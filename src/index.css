@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #61DAFB;
+  color: #463f3f;
+  
+}
+
+#routes-container{
+  box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px;
+}
+
+.example-components{
+  width: 180px;
+  height: 110px;
+  margin: 10px;
+  padding: 20px;
+  display: inline-block;
+  background: #61daded4;
+  color: #463f3f;
+  font-size: 15px;
+  vertical-align: middle;
+}
